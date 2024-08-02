@@ -1,11 +1,9 @@
 import { Link } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function Page1() {
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
       <Text>Page 1!</Text>
       <Link href="/page2">Next</Link>
     </View>

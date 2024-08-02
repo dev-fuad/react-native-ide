@@ -1,7 +1,7 @@
 import { Link } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function Page2() {
   return (
     <View style={styles.container}>
       <Text>Page 2</Text>
